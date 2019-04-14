@@ -13,8 +13,8 @@ function connectToServer(bot) {
 
         console.info('A Menu has been clicked');
       });
-    }, 1000);
-  }, 1000);
+    }, 1500);
+  }, 1500);
 }
 
 module.exports = connectToServer;
