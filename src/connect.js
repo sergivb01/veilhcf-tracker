@@ -1,10 +1,12 @@
+const config = require('../config.json');
+
 function connectToServer(bot) {
   setTimeout(() => {
     bot.setQuickBarSlot(4);
     bot.activateItem();
 
     setTimeout(() => {
-      bot.clickWindow(0, 0, 0, err => {
+      bot.clickWindow(config.server.slot, 0, 0, err => {
         if (err) console.error(err);
 
         console.info('A Menu has been clicked');

@@ -2,7 +2,8 @@
 	"server": {
 		"host": "veilmc.net",
 		"port": 25565,
-		"version": "1.8"
+		"version": "1.8",
+		"slot": 4
 	},
 	"auth": {
 		"username": "sergivb01@gmail.com",
