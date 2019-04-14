@@ -9,6 +9,8 @@ function connectToServer(bot) {
       bot.clickWindow(config.server.slot, 0, 0, err => {
         if (err) console.error(err);
 
+        console.log(config.server.slot);
+
         console.info('A Menu has been clicked');
       });
     }, 1000);
