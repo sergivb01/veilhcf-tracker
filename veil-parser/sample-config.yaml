@@ -1,0 +1,3 @@
+redis:
+  host: address:port
+  password: mysuperlongpasswordforredis
