@@ -1,0 +1,17 @@
+{
+	"server": {
+		"host": "veilmc.net",
+		"port": 25565,
+		"version": "1.8"
+	},
+	"auth": {
+		"username": "sergivb01@gmail.com",
+		"password": "mysecretpassword"
+	},
+	"redis": {
+		"host": "dory.redistogo.com",
+		"port": 10985,
+		"database": "",
+		"password": ""
+	}
+}

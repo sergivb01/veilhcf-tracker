@@ -1,0 +1,27 @@
+{
+  "name": "veilhcf-tracker",
+  "version": "1.0.0",
+  "description": "A VeilHCF bot that tracks things.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergivb01/veilhcf-tracker.git"
+  },
+  "author": "Sergi Vos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergivb01/veilhcf-tracker/issues"
+  },
+  "homepage": "https://github.com/sergivb01/veilhcf-tracker#readme",
+  "dependencies": {
+    "mineflayer": "^2.7.5",
+    "prismarine-tokens": "^1.0.3",
+    "redis": "^2.8.0",
+    "strip-ansi": "^5.2.0"
+  }
+}
